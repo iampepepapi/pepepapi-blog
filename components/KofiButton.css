@@ -1,0 +1,96 @@
+.kofi-container {
+  display: inline-block;
+  white-space: nowrap;
+  min-width: 160px;
+}
+
+.kofi-button {
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.kofi-button:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.85;
+}
+
+.kofi-image-container {
+  margin: 0;
+  padding: 0;
+}
+
+.kofi-image {
+  display: block;
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+}
+
+.kofi-text {
+  color: #fff;
+}
+
+/* Preset styles */
+.kofi-button.thin {
+  padding: 4px 8px;
+}
+
+.kofi-button.skinny {
+  padding: 2px 6px;
+}
+
+.kofi-button.circle {
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.kofi-button.circle .kofi-text {
+  display: none;
+}
+
+.kofi-button.no_background {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.kofi-button.no_background:hover {
+  box-shadow: none;
+}
+
+/* Animation styles */
+@keyframes kofi-wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.kofi-image.animation_true {
+  animation: kofi-wiggle 3s infinite;
+}
+
+.kofi-image.animation_on_hover:hover {
+  animation: kofi-wiggle 1s infinite;
+}
