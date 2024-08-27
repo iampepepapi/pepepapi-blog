@@ -21,8 +21,8 @@ import Link from "next/link";
 
 const links = [
   { name: "Home", href: "/", description: "pfierjpoiwjefipoj" },
-  { name: "About", href: "/about", description: "pfierjpoiwjefipoj" },
-  { name: "Contact", href: "/contact", description: "pfierjpoiwjefipoj" },
+  { name: "Blog", href: "/blog", description: "pfierjpoiwjefipoj" },
+  // { name: "Contact", href: "/contact", description: "pfierjpoiwjefipoj" },
 ];
 
 function NavbarMobile() {

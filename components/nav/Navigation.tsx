@@ -23,10 +23,10 @@ import {
 } from "lucide-react";
 
 const links = [
-  { name: "About", href: "/", description: "" },
-  { name: "Projects", href: "/about", description: "" },
+  { name: "Home", href: "/", description: "" },
+  // { name: "Projects", href: "/about", description: "" },
   { name: "Blog", href: "/blog", description: "" },
-  { name: "Contact", href: "/contact", description: "" },
+  // { name: "Contact", href: "/contact", description: "" },
 ];
 
 const languages = [
