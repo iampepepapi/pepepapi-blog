@@ -54,10 +54,10 @@ function Home() {
                   About Me
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Hi, I&apos;m Samuel Gonzalez, a passionate programmer and
-                  Twitch streamer. With 5 years of experience in full-stack
-                  development, I love creating innovative solutions and sharing
-                  my knowledge with the community through live coding sessions.
+                  Hi, I&apos;m Samuel Gonzalez, a passionate programmer. With 2
+                  years of experience in full-stack development, I love creating
+                  innovative solutions and sharing my knowledge with the
+                  community through live coding sessions.
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
                   My goal is to bridge the gap between coding and content
