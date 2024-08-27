@@ -143,7 +143,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        {/* <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container m-auto flex flex-col items-center px-4 md:px-6">
             <h2 className="mb-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Twitch Stream
@@ -166,7 +166,7 @@ function Home() {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
         <section
           id="contact"
           className="w-full bg-gray-100 py-12 dark:bg-primary-foreground md:py-24 lg:py-32"
