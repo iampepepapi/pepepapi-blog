@@ -29,7 +29,7 @@ function Home() {
                   Samuel Gonzalez
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl">
-                  Programmer. Twitch Streamer. Tech Enthusiast.
+                  Programmer. Fullstack Developer. Tech Enthusiast.
                 </p>
               </div>
               <div className="space-x-4">
