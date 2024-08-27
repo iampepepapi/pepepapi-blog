@@ -27,9 +27,9 @@ const links = [
 
 function NavbarMobile() {
   return (
-    <NavigationMenu className="p-0">
+    <NavigationMenu className="border-none p-0">
       <Sheet>
-        <SheetTrigger className="px-2.5">
+        <SheetTrigger className="border-none px-2.5">
           <svg
             className="h-5 w-5"
             aria-hidden="true"
@@ -46,7 +46,7 @@ function NavbarMobile() {
             />
           </svg>
         </SheetTrigger>
-        <SheetContent className="w-screen">
+        <SheetContent className="m-auto flex h-screen w-screen items-center justify-center border-none">
           <SheetHeader>
             <SheetTitle className="relative grid gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {links.map(({ name, href }) => (
@@ -56,7 +56,7 @@ function NavbarMobile() {
                 </Link>
               ))}
             </SheetTitle>
-            <SheetDescription>Dynamic Engineering</SheetDescription>
+            <SheetDescription>Samuel Ismael Gonzalez Ampuero</SheetDescription>
           </SheetHeader>
         </SheetContent>
       </Sheet>
