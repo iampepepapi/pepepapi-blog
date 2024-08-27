@@ -3,7 +3,7 @@ import {useMemo} from 'react'
 import {MarkdownInput, MarkdownInputProps} from 'sanity-plugin-markdown'
 import {CodeInput} from '@sanity/code-input'
 
-export function CustomMarkdownInput(props) {
+export function CustomMarkdownInput(props: any) {
   const reactMdeProps: MarkdownInputProps['reactMdeProps'] = useMemo(() => {
     return {
       options: {

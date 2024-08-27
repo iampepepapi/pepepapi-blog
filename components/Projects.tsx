@@ -20,14 +20,6 @@ const ProjectCard = [
     demo: "https://dynamic-engineering.vercel.app/",
     github: "https://github.com/iampepepapi/dynamic-engineering",
   },
-  {
-    title: "Dynamic Engineering",
-    short_desc: "A real-time chat application",
-    img: "/avatar.jpg",
-    desc: "Built with React, Node.js, and Socket.io. Features include user authentication, private messaging, and chat rooms.",
-    demo: "#",
-    github: "#",
-  },
 ];
 
 function Projects() {
